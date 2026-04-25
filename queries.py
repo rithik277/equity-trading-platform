@@ -216,7 +216,7 @@ def anomaly_summary():
     query = """
         SELECT
             anomaly_reason,
-            COUNT(*)                        AS count,
+            COUNT(*)                      AS count,
             ROUND(AVG(slippage_bps), 2)   AS avg_slippage_bps,
             ROUND(SUM(pnl), 2)            AS total_pnl
         FROM trades
@@ -290,4 +290,3 @@ if __name__ == "__main__":
     print(client_anomaly_count().head().to_string(index=False))
 
     print("\nAll queries working correctly!")
-    
