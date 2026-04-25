@@ -21,6 +21,7 @@ analyzer = TradeAnalyzer()
 
 # ── Initialize the Dash app ───────────────────
 app = dash.Dash(__name__)
+server = app.server   # Required for Render/gunicorn deployment
 app.title = "Equity Trading Intelligence Platform"
 
 # ── Color scheme ─────────────────────────────
