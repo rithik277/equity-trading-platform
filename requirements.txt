@@ -1,0 +1,5 @@
+yfinance
+pandas
+plotly
+dash
+gunicorn == 21.2.0 
