@@ -13,6 +13,11 @@ Three-tab Plotly Dash dashboard with real-time filtering:
 - Tab 2: Client Profitability  
 - Tab 3: Surveillance & Alerts
 
+## 🚀 Live Dashboard
+
+👉 **[View Live Dashboard](https://equity-trading-platform-2.onrender.com)**
+
+> ⚠️ Hosted on Render free tier — may take 30-60 seconds to wake up if inactive
 ---
 
 ## 🎯 What This Project Covers
